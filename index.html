@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeX 2025 - Futuristic Typing Trainer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              'orbitron': ['Orbitron', 'sans-serif'],
+              'rajdhani': ['Rajdhani', 'sans-serif'],
+            },
+            colors: {
+              'cyber-bg': '#0a0a1a',
+              'cyber-surface': 'rgba(10, 10, 26, 0.6)',
+              'cyber-primary': '#00f5d4',
+              'cyber-secondary': '#ff00ff',
+              'cyber-accent': '#f7b801',
+              'cyber-text': '#e0e0e0',
+              'cyber-text-dark': '#a0a0a0',
+            },
+            boxShadow: {
+              'neon-primary': '0 0 5px #00f5d4, 0 0 10px #00f5d4, 0 0 15px #00f5d4',
+              'neon-secondary': '0 0 5px #ff00ff, 0 0 10px #ff00ff',
+            },
+            keyframes: {
+              blink: {
+                '0%, 100%': { opacity: 1 },
+                '50%': { opacity: 0 },
+              },
+              fadeIn: {
+                '0%': { opacity: 0, transform: 'translateY(10px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              blink: 'blink 1s linear infinite',
+              fadeIn: 'fadeIn 0.5s ease-out forwards',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.15.0",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1"
+  }
+}
+</script>
+<!-- This script will transpile our TSX code in the browser -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white dark:bg-cyber-bg transition-colors duration-500">
+    <div id="root"></div>
+    <!-- We tell Babel to transpile this file before running it as a module -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
