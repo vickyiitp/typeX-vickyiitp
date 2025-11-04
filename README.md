@@ -15,28 +15,7 @@ This project is a fully client-side application built with React and TypeScript,
 - **Fully Responsive:** Works beautifully on desktop and mobile devices.
 - **No Backend Needed:** All data is stored in the browser's local storage.
 
----
+I ADDED THE AI IN THIS APP WHICH CREATED THE CHALLENGE..
+BY USING THE API KEY GEMINI..
 
-## How to Deploy for Free (Recommended)
-
-The best way to deploy this application is using a service like **Vercel** or **Netlify**. They offer generous free tiers and make it incredibly easy to manage the environment variables required for the Gemini API key.
-
-### Deploying on Vercel
-
-1.  **Fork/Clone this Repository:** Get a copy of this project into your own GitHub account.
-2.  **Sign up for Vercel:** Go to [Vercel.com](https://vercel.com) and sign up with your GitHub account.
-3.  **Create a New Project:**
-    *   From your Vercel dashboard, click "Add New... -> Project".
-    *   Import the GitHub repository you just created.
-4.  **Configure the Project:**
-    *   Vercel will automatically detect that this is a static site. You do **not** need to specify a build command or output directory.
-    *   Go to the **"Environment Variables"** section.
-    *   Add a new variable:
-        *   **Name:** `API_KEY`
-        *   **Value:** Paste your Google Gemini API key here.
-    *   **Important:** Ensure the key is available on the client by **NOT** checking the "Secret" box if Vercel provides such an option. The application requires this variable to be accessible in the browser.
-5.  **Deploy:**
-    *   Click the "Deploy" button.
-    *   Vercel will build and deploy your site, providing you with a public URL.
-
-Your application is now live! The `process.env.API_KEY` in the code will automatically pick up the value you set in the Vercel project settings.
+DELPOYED LINK:- https://typexvickyiitp.netlify.app/
