@@ -18,4 +18,4 @@ This project is a fully client-side application built with React and TypeScript,
 I ADDED THE AI IN THIS APP WHICH CREATED THE CHALLENGE..
 BY USING THE API KEY GEMINI..
 
-DELPOYED LINK:- https://typexvickyiitp.netlify.app/
+DEPLOYED LINK:- https://typexvickyiitp.netlify.app/
