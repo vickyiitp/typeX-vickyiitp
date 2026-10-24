@@ -1,21 +1,28 @@
-# TypeX 2025 - Futuristic Typing Trainer
+<div align="center">
 
-A futuristic typing trainer and challenge platform that combines modern UI/UX trends with gamified multi-level training, real-time analytics, achievements, and AI-driven feedback.
+# ⌨️ TypeX 2025 — Futuristic AI-Assisted Typing Mastery
+### Gamified Speed Challenges, Real-Time WPM/Accuracy Telemetry & Error Heatmaps
 
-This project is a fully client-side application built with React and TypeScript, using in-browser transpilation for simplicity. It leverages the Google Gemini API for AI-powered features and local storage to persist user data, making it fast, offline-capable, and easy to deploy.
+[![Vite](https://img.shields.io/badge/Vite-Fast%20Bundler-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Architect](https://img.shields.io/badge/Architect-Vicky%20Kumar-8b5cf6?style=for-the-badge&logo=github)](https://github.com/vickyiitp)
 
-## Features
+</div>
 
-- **Gamified Progression:** Level up, earn XP, and unlock achievements.
-- **AI-Powered Feedback:** Get personalized coaching from an AI assistant after each test.
-- **Dynamic Challenges:** Generate infinite typing tests with adjustable difficulty and duration.
-- **Custom Tests:** Paste your own text to practice with.
-- **Real-time Analytics:** Track your WPM, accuracy, and errors as you type.
-- **Modern UI/UX:** A sleek, cyberpunk-themed interface with light and dark modes.
-- **Fully Responsive:** Works beautifully on desktop and mobile devices.
-- **No Backend Needed:** All data is stored in the browser's local storage.
+---
 
-I ADDED THE AI IN THIS APP WHICH CREATED THE CHALLENGE..
-BY USING THE API KEY GEMINI..
+## ⚡ Highlights
 
-DEPLOYED LINK:- https://typexvickyiitp.netlify.app/
+- 🏎️ **Real-Time WPM & Accuracy Telemetry**: Computes net Words Per Minute, raw keystrokes, and accuracy percentages per keystroke.
+- 🤖 **AI-Generated Dynamic Challenges**: Dynamically synthesized code syntax challenges (Python, JS, C++) and technical prose.
+- 🎯 **Keystroke Error Heatmap**: Highlights problem keys that cause finger hesitation or frequent backspacing.
+
+```bash
+git clone https://github.com/vickyiitp/typeX-vickyiitp.git
+cd typeX-vickyiitp
+npm install
+npm run dev
+```
+
+Engineered by **Vicky Kumar** @ [Devil Labs](https://devillabs.dev)
